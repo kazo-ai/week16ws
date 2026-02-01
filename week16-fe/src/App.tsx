@@ -68,7 +68,7 @@ function App() {
          setReply(msg);
          console.log("from server",msg)
                               };
-       }, []); 
+       }, []);
 
   const Sendmessage = ()=>{
     if(!socket){
